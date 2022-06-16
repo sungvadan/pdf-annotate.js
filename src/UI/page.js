@@ -1,6 +1,7 @@
 import PDFJSAnnotate from '../PDFJSAnnotate';
 import config from '../config';
 import renderScreenReaderHints from '../a11y/renderScreenReaderHints';
+import pdfjsViewer from 'pdfjs-dist/web/pdf_viewer'
 
 // Template for creating a new page
 const PAGE_TEMPLATE = `
